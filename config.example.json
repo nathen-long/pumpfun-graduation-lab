@@ -1,0 +1,22 @@
+{
+  "_说明": "复制为 trader/config.json 后填入自己的值；这个文件不会被提交",
+  "wallet": "你的钱包公钥（只有公钥，不要放私钥）",
+
+  "rpc": "https://mainnet.helius-rpc.com/?api-key=你的KEY",
+  "wss": "wss://mainnet.helius-rpc.com/?api-key=你的KEY",
+  "rpcFallback": [
+    "https://solana-rpc.publicnode.com",
+    "https://api.mainnet-beta.solana.com"
+  ],
+  "_ws说明": "preferPaidWs=false 时行情走免费公共节点，Helius 只做 HTTP 查询（省钱）",
+  "preferPaidWs": false,
+
+  "size": 0.01,
+  "gradSize": 0.02,
+  "maxPos": 20,
+  "maxExposure": 0.5,
+  "maxHoldH": 0.5,
+  "slippage": 15,
+  "priorityFee": 0.0005,
+  "paperStartSol": 0.5
+}

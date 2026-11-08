@@ -1,0 +1,21 @@
+# 密钥 / 私钥 —— 绝对不能提交
+keys/
+wallet.json
+*.key
+.env
+trader/config.json
+
+# 数据（体积大，且含真实钱包地址）
+data/
+logs/
+reports/
+*.jsonl
+
+# 依赖 / 缓存
+node_modules/
+__pycache__/
+*.pyc
+*.pid
+.DS_Store
+.vscode/
+.idea/
